@@ -1,4 +1,4 @@
-from lib.cached_functions import get_random_seed
+from lib.basic_functions import get_random_seed
 import streamlit as st
 
 
