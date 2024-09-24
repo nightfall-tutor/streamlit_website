@@ -1,0 +1,5 @@
+2024-09-24 10:34:43,595 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-24 10:34:43,605 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-24 10:34:43,605 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-24 10:34:43,606 [DEBUG] data_handler.py (line:25) Clear data
+2024-09-24 10:34:43,606 [DEBUG] data_handler.py (line:20) Update data to local file
