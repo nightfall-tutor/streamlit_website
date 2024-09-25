@@ -6,7 +6,6 @@ from common.path_handler import path_handler
 if __name__ == "__main__":
     st.sidebar.image(path_handler.profile_file_path)
     st.title("联系方式")
-
     st.markdown("### 📧留下你的联系方式")
     st.markdown("#### 📱社交平台")
     select_box_social_platform = st.selectbox(label="选择社交平台",
@@ -25,7 +24,6 @@ if __name__ == "__main__":
             st.session_state["contact information"] = text_input_contact_information
             update_contact_information(f"{st.session_state['social platform']} - {st.session_state['contact information']}")
             st.markdown('<p style="color: green;">保存成功</p>', unsafe_allow_html=True)
-
     st.markdown("### 🧑‍💻获取我的联系方式")
     container_get_contact_information = st.empty()  # 使用容器实现按钮消失
     button_get_contact_information = container_get_contact_information.button("获取")

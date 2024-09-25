@@ -10,9 +10,11 @@ if __name__ == "__main__":
     st.sidebar.image(path_handler.profile_file_path)
     st.title("留学课业辅导答疑家教")
     st.markdown("### 课程📚/作业🖋️/考试💯/论文📃/课设⚗️/实验🔬")
+    # st.markdown("### 一对一💁‍♂️/一对多👪")
     st.markdown("###")
     st.markdown("### 🧑‍🏫个人老师 🧑‍🎓硕士学历")
     st.markdown("### 🙅‍♂️不是机构 🙅‍♀️不是中介")
+    st.markdown("### 🙋只接会的 ❌不找外包")
     st.markdown("### 🤝诚信接单 🧑‍🤝‍🧑互利双赢")
     st.markdown("###")
     st.markdown("### 📖擅长课程")
@@ -24,11 +26,12 @@ if __name__ == "__main__":
                 ["Advanced Mathematics 高等数学"],
                 ["Mathematics Analysis 数学分析"],
                 ["Linear Algebra 线性代数"],
-                ["Theory Of Matrix 矩阵理论"],
-                ["Theory Of Probability 概率论"],
+                ["Theory of Matrix 矩阵理论"],
+                ["Theory of Probability 概率论"],
                 ["Statistics 统计"],
                 ["Differential Equation 微分方程"],
-                ["Physics 物理"]
+                ["Physics 物理"],
+                ["Fundamentals of Circuits 电路基础"]
             ],
             columns=["Mathematics & Physics 数理类"]
         )
@@ -37,8 +40,8 @@ if __name__ == "__main__":
     st.table(
         pd.DataFrame(
             [
-                ["Theory Of Control 控制理论"],
-                ["Theory Of Linear System 线性系统理论"],
+                ["Theory of Control 控制理论"],
+                ["Theory of Linear System 线性系统理论"],
                 ["Numerical Method 数值方法"]
             ],
             columns=["Engineering 工科类"]
@@ -57,6 +60,9 @@ if __name__ == "__main__":
             columns=["Programming 编程类"]
         ),
     )
+    st.markdown("""
+    以上仅列出部分课程，可带课程名咨询，有把握就接~
+    """)
 
 
 
