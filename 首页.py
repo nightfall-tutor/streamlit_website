@@ -1,4 +1,5 @@
 from lib.basic_functions import update_visitor_count
+from common.path_handler import path_handler
 import os.path
 import streamlit as st
 import pandas as pd
@@ -6,8 +7,8 @@ import pandas as pd
 
 if __name__ == "__main__":
     update_visitor_count()
-    st.sidebar.image(os.path.join(os.path.dirname(__file__), "resources", "profile.jpg"))
-    st.title("🏫留学生辅导答疑")
+    st.sidebar.image(path_handler.profile_file_path)
+    st.title("留学课业辅导答疑家教")
     st.markdown("### 课程📚/作业🖋️/考试💯/论文📃/课设⚗️/实验🔬")
     st.markdown("###")
     st.markdown("### 🧑‍🏫个人老师 🧑‍🎓硕士学历")
@@ -47,14 +48,13 @@ if __name__ == "__main__":
     st.table(
         pd.DataFrame(
             [
-                ["Matlab", "Matlab"],
-                ["Java", "Java"],
-                ["Python", "Python"],
-                ["Data Structure", "数据结构"],
-                ["Algorithm", "算法"]
+                ["Matlab"],
+                ["Java"],
+                ["Python"],
+                ["Data Structure 数据结构"],
+                ["Algorithm 算法"]
             ],
-            columns=["Programming", "编程类"],
-            index=None
+            columns=["Programming 编程类"]
         ),
     )
 

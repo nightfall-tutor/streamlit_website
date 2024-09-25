@@ -1,10 +1,10 @@
-import os.path
 import streamlit as st
 from lib.basic_functions import update_clicker_count, update_contact_information
 from common.path_handler import path_handler
 
 
 if __name__ == "__main__":
+    st.sidebar.image(path_handler.profile_file_path)
     st.title("联系方式")
 
     st.markdown("### 📧留下你的联系方式")
