@@ -19,16 +19,28 @@ if __name__ == "__main__":
     st.table(
         pd.DataFrame(
             [
-                ["Calculus", "微积分"],
-                ["Advanced Mathematics", "高等数学"],
-                ["Mathematics Analysis", "数学分析"],
-                ["Linear Algebra", "线性代数"],
-                ["Theory Of Matrix", "矩阵理论"],
-                ["Theory Of Probability", "概率论"],
-                ["Statistics", "统计"],
-                ["Differential Equation", "微分方程"]
+                ["Calculus 微积分"],
+                ["Advanced Mathematics 高等数学"],
+                ["Mathematics Analysis 数学分析"],
+                ["Linear Algebra 线性代数"],
+                ["Theory Of Matrix 矩阵理论"],
+                ["Theory Of Probability 概率论"],
+                ["Statistics 统计"],
+                ["Differential Equation 微分方程"],
+                ["Physics 物理"]
             ],
-            columns=["Math", "数学类"]
+            columns=["Mathematics & Physics 数理类"]
+        )
+    )
+    st.markdown("#### 🛠️工科类")
+    st.table(
+        pd.DataFrame(
+            [
+                ["Theory Of Control 控制理论"],
+                ["Theory Of Linear System 线性系统理论"],
+                ["Numerical Method 数值方法"]
+            ],
+            columns=["Engineering 工科类"]
         )
     )
     st.markdown("#### ⌨️编程类")
@@ -39,12 +51,11 @@ if __name__ == "__main__":
                 ["Java", "Java"],
                 ["Python", "Python"],
                 ["Data Structure", "数据结构"],
-                ["Numerical Method", "数值方法"],
                 ["Algorithm", "算法"]
-
             ],
-            columns=["Programming", "编程类"]
-        )
+            columns=["Programming", "编程类"],
+            index=None
+        ),
     )
 
 
