@@ -9,6 +9,7 @@ class PathHandler:
         self.profile_file_path = os.path.join(self.root_folder_path, "resources", "profile.jpg")
         self.wechat_qr_file_path = os.path.join(self.root_folder_path, "resources", "wechat_qr.jpg")
         self.comments_folder_path = os.path.join(self.root_folder_path, "resources", "comments")
+        self.works_folder_path = os.path.join(self.root_folder_path, "resources", "works")
 
 
 path_handler = PathHandler()
