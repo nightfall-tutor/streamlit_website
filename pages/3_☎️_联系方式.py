@@ -24,6 +24,7 @@ if __name__ == "__main__":
             st.session_state["contact information"] = text_input_contact_information
             update_contact_information(f"{st.session_state['social platform']} - {st.session_state['contact information']}")
             st.markdown('<p style="color: green;">保存成功</p>', unsafe_allow_html=True)
+    st.markdown("###")
     st.markdown("### 🧑‍💻获取我的联系方式")
     container_get_contact_information = st.empty()  # 使用容器实现按钮消失
     button_get_contact_information = container_get_contact_information.button("获取")
