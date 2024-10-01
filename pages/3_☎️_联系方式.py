@@ -16,14 +16,14 @@ if __name__ == "__main__":
     button_confirm = st.button("确认")
     if button_confirm:
         if not select_box_social_platform:
-            st.markdown('<p style="color: red;">请选择社交平台</p>', unsafe_allow_html=True)
+            st.error("请选择社交平台", icon="❎")
         elif not text_input_contact_information:
-            st.markdown('<p style="color: red;">请输入联系方式</p>', unsafe_allow_html=True)
+            st.error("请输入联系方式", icon="❎")
         else:
             st.session_state["social platform"] = select_box_social_platform
             st.session_state["contact information"] = text_input_contact_information
             update_contact_information(f"{st.session_state['social platform']} - {st.session_state['contact information']}")
-            st.markdown('<p style="color: green;">保存成功</p>', unsafe_allow_html=True)
+            st.success("保存成功", icon="✅")
     st.markdown("###")
     st.markdown("### 🧑‍💻获取我的联系方式")
     container_get_contact_information = st.empty()  # 使用容器实现按钮消失

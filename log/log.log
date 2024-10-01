@@ -302,6 +302,11 @@
 2024-09-29 10:42:26,444 [DEBUG] logger.py (line:18) Initialize logger
 2024-09-29 10:42:26,445 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
 2024-09-29 10:42:26,445 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-29 21:10:12,696 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-29 21:10:12,696 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-29 21:10:12,696 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-29 21:10:13,121 [DEBUG] data_handler.py (line:37) Update visitor count
+2024-09-29 21:10:13,121 [DEBUG] data_handler.py (line:20) Update data to local file
 2024-09-29 21:26:34,049 [DEBUG] logger.py (line:18) Initialize logger
 2024-09-29 21:26:34,054 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
 2024-09-29 21:26:34,056 [DEBUG] data_handler.py (line:14) Get data from local file
@@ -312,3 +317,66 @@
 2024-09-29 21:49:59,987 [DEBUG] data_handler.py (line:14) Get data from local file
 2024-09-29 21:50:00,567 [DEBUG] data_handler.py (line:37) Update visitor count
 2024-09-29 21:50:00,567 [DEBUG] data_handler.py (line:20) Update data to local file
+2024-09-30 15:56:24,655 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 15:56:24,655 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 15:56:24,655 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 15:56:25,259 [DEBUG] data_handler.py (line:37) Update visitor count
+2024-09-30 15:56:25,260 [DEBUG] data_handler.py (line:20) Update data to local file
+2024-09-30 15:57:04,367 [DEBUG] data_handler.py (line:53) Update contact information
+2024-09-30 15:57:04,367 [DEBUG] data_handler.py (line:20) Update data to local file
+2024-09-30 16:00:05,743 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:00:05,743 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:00:05,744 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:03:00,358 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:03:00,358 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:03:00,358 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:04:56,207 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:04:56,207 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:04:56,207 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:07:23,496 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:07:23,497 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:07:23,497 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:21:45,868 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:21:45,868 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:21:45,868 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:21:57,061 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:21:57,061 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:21:57,062 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:35:48,255 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:35:48,255 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:35:48,255 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:36:06,987 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:36:06,988 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:36:06,988 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:37:38,115 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:37:38,115 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:37:38,115 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:38:04,850 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:38:04,850 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:38:04,851 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:40:01,519 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:40:01,519 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:40:01,520 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:40:17,501 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:40:17,501 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:40:17,501 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:42:12,993 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:42:12,993 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:42:12,993 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:42:32,051 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:42:32,051 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:42:32,051 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:43:35,575 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:43:35,575 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:43:35,575 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-09-30 16:52:10,118 [DEBUG] logger.py (line:18) Initialize logger
+2024-09-30 16:52:10,119 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-09-30 16:52:10,119 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-01 11:46:51,318 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-01 11:46:51,318 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-01 11:46:51,318 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-01 11:46:51,935 [DEBUG] data_handler.py (line:37) Update visitor count
+2024-10-01 11:46:51,936 [DEBUG] data_handler.py (line:20) Update data to local file
+2024-10-01 11:50:07,021 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-01 11:50:07,021 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-01 11:50:07,021 [DEBUG] data_handler.py (line:14) Get data from local file

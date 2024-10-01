@@ -19,46 +19,52 @@ if __name__ == "__main__":
     st.markdown("###")
     st.markdown("### 📖擅长课程")
     st.markdown("#### ➕数学类")
-    st.table(
+    st.dataframe(
         pd.DataFrame(
             [
-                ["Calculus 微积分"],
-                ["Advanced Mathematics 高等数学"],
-                ["Mathematics Analysis 数学分析"],
-                ["Linear Algebra 线性代数"],
-                ["Theory of Matrix 矩阵理论"],
-                ["Theory of Probability 概率论"],
-                ["Statistics 统计"],
-                ["Differential Equation 微分方程"],
-                ["Physics 物理"],
-                ["Fundamentals of Circuits 电路基础"]
+                ["Calculus", "微积分"],
+                ["Advanced Mathematics", "高等数学"],
+                ["Mathematics Analysis", "数学分析"],
+                ["Linear Algebra", "线性代数"],
+                ["Theory of Matrix", "矩阵理论"],
+                ["Theory of Probability", "概率论"],
+                ["Statistics", "统计"],
+                ["Differential Equation", "微分方程"],
+                ["Physics", "物理"],
+                ["Fundamentals of Circuits", "电路基础"]
             ],
-            columns=["Mathematics & Physics 数理类"]
-        )
-    )
-    st.markdown("#### 🛠️工科类")
-    st.table(
-        pd.DataFrame(
-            [
-                ["Theory of Control 控制理论"],
-                ["Theory of Linear System 线性系统理论"],
-                ["Numerical Method 数值方法"]
-            ],
-            columns=["Engineering 工科类"]
-        )
+            columns=["Mathematics & Physics", "数理类"]
+        ),
+        width=10000,
+        hide_index=True
     )
     st.markdown("#### ⌨️编程类")
-    st.table(
+    st.dataframe(
         pd.DataFrame(
             [
-                ["Matlab"],
-                ["Java"],
-                ["Python"],
-                ["Data Structure 数据结构"],
-                ["Algorithm 算法"]
+                ["Matlab", "Matlab"],
+                ["Java", "Java"],
+                ["Python", "Python"],
+                ["Data Structure", "数据结构"],
+                ["Algorithm", "算法"]
             ],
-            columns=["Programming 编程类"]
+            columns=["Programming", "编程类"]
         ),
+        width=10000,
+        hide_index=True
+    )
+    st.markdown("#### 🛠️工科类")
+    st.dataframe(
+        pd.DataFrame(
+            [
+                ["Theory of Control", "控制理论"],
+                ["Theory of Linear System", "线性系统理论"],
+                ["Numerical Method", "数值方法"]
+            ],
+            columns=["Engineering", "工科类"]
+        ),
+        width=10000,
+        hide_index=True
     )
     st.markdown("""
     以上仅列出部分课程，可带课程名咨询，有把握就接~

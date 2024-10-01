@@ -7,8 +7,6 @@ import streamlit as st
 if __name__ == "__main__":
     st.sidebar.image(path_handler.profile_file_path)
     st.title("辅导经验")
-    # st.markdown("###")
-    # st.markdown("### 👨‍🔬总结一览")
     column_1, column_2, column_3 = st.columns(3)
     column_1.metric(label="辅导人次", value="300人+", delta="值得信赖", delta_color="normal")
     column_2.metric(label="辅导生涯", value="4年+", delta="经验丰富", delta_color="normal")
@@ -27,27 +25,8 @@ if __name__ == "__main__":
         column_6.image(os.path.join(path_handler.comments_folder_path, f"comment_{6 * index + 6}.jpg"))
     st.markdown("###")
     st.markdown("### 📃过往作品")
-    column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
-    column_1.markdown("20240210 Assignment to Physics.pdf")
-    with open(os.path.join(path_handler.works_folder_path, "20240210_Assignment_to_Physics.pdf"), mode="rb") as file:
-        column_2.download_button(label="下载", data=file, file_name="20240210 Assignment to Physics.pdf")
-    column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
-    column_1.markdown("20240102 Assignment to Statistics.pdf")
-    with open(os.path.join(path_handler.works_folder_path, "20240102_Assignment_to_Statistics.pdf"), mode="rb") as file:
-        column_2.download_button(label="下载", data=file, file_name="20240102 Assignment to Statistics.pdf")
-    column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
-    column_1.markdown("20231230 Report to Lab Electronics.pdf")
-    with open(os.path.join(path_handler.works_folder_path, "20231230_Report_to_Lab_Electronics.pdf"), mode="rb") as file:
-        column_2.download_button(label="下载", data=file, file_name="20231230 Report to Lab Electronics.pdf")
-    column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
-    column_1.markdown("20231002 Assignment to Matlab.pdf")
-    with open(os.path.join(path_handler.works_folder_path, "20231002_Assignment_to_Matlab.pdf"), mode="rb") as file:
-        column_2.download_button(label="下载", data=file, file_name="20231002 Assignment to Matlab.pdf")
-    column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
-    column_1.markdown("20230914 Assignment to Matrix Theory.pdf")
-    with open(os.path.join(path_handler.works_folder_path, "20230914_Assignment_to_Matrix_Theory.pdf"), mode="rb") as file:
-        column_2.download_button(label="下载", data=file, file_name="20230914 Assignment to Matrix Theory.pdf")
-    column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
-    column_1.markdown("20230906 Assignment to Mathematics")
-    with open(os.path.join(path_handler.works_folder_path, "20230906_Assignment_to_Mathematics.pdf"), mode="rb") as file:
-        column_2.download_button(label="下载", data=file, file_name="20230906 Assignment to Mathematics")
+    for file_name in sorted(os.listdir(path_handler.works_folder_path), reverse=True):
+        column_1, column_2 = st.columns([8, 1], vertical_alignment="center")
+        column_1.markdown(file_name.replace("_", " "))
+        with open(os.path.join(path_handler.works_folder_path, file_name), mode="rb") as file:
+            column_2.download_button(label="下载", data=file, file_name=file_name.replace("_", " "))
