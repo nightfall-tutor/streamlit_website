@@ -5,6 +5,7 @@ import streamlit as st
 
 
 if __name__ == "__main__":
+    st.set_page_config(page_title="辅导经验 留学课业辅导答疑家教 个人老师 一对一 一对多", page_icon="🧑‍🏫")
     st.sidebar.image(path_handler.profile_file_path)
     st.title("辅导经验")
     column_1, column_2, column_3 = st.columns(3)

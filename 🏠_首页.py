@@ -1,15 +1,16 @@
 from lib.basic_functions import update_visitor_count
 from common.path_handler import path_handler
-import os.path
 import streamlit as st
 import pandas as pd
 
 
 if __name__ == "__main__":
+    st.set_page_config(page_title="首页 留学课业辅导答疑家教 个人老师 一对一 一对多", page_icon="🏠")
     update_visitor_count()
+    st.header(body="留学课业辅导答疑家教")
+    st.header(body="课程📚/作业🖋️/考试💯/论文📃/课设⚗️/实验🔬")
     st.sidebar.image(path_handler.profile_file_path)
-    st.title("留学课业辅导答疑家教")
-    st.markdown("### 课程📚/作业🖋️/考试💯/论文📃/课设⚗️/实验🔬")
+    # st.markdown("### 课程📚/作业🖋️/考试💯/论文📃/课设⚗️/实验🔬")
     # st.markdown("### 一对一💁‍♂️/一对多👪")
     st.markdown("###")
     st.markdown("### 🧑‍🏫个人老师 🧑‍🎓硕士学历")

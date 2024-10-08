@@ -4,8 +4,9 @@ from common.path_handler import path_handler
 
 
 if __name__ == "__main__":
-    st.sidebar.image(path_handler.profile_file_path)
+    st.set_page_config(page_title="联系方式 留学课业辅导答疑家教 个人老师 一对一 一对多", page_icon="☎️")
     st.title("联系方式")
+    st.sidebar.image(path_handler.profile_file_path)
     st.markdown("### 📧留下你的联系方式")
     st.markdown("#### 📱社交平台")
     select_box_social_platform = st.selectbox(label="选择社交平台",
@@ -24,6 +25,7 @@ if __name__ == "__main__":
             st.session_state["contact information"] = text_input_contact_information
             update_contact_information(f"{st.session_state['social platform']} - {st.session_state['contact information']}")
             st.success("保存成功", icon="✅")
+            # st.balloons()
     st.markdown("###")
     st.markdown("### 🧑‍💻获取我的联系方式")
     container_get_contact_information = st.empty()  # 使用容器实现按钮消失
