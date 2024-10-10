@@ -4,7 +4,7 @@ from common.path_handler import path_handler
 
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="联系方式 留学课业辅导答疑家教 个人老师 一对一 一对多", page_icon="☎️")
+    st.set_page_config(page_title="联系方式 留学课程作业考试辅导答疑家教 个人老师", page_icon="☎️")
     st.title("联系方式")
     st.sidebar.image(path_handler.profile_file_path)
     st.markdown("### 📧留下你的联系方式")
