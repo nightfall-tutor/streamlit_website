@@ -546,3 +546,21 @@
 2024-10-16 17:57:04,900 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
 2024-10-16 17:57:56,818 [DEBUG] logger.py (line:18) Initialize logger
 2024-10-16 17:58:02,904 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-17 01:10:17,232 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-17 01:10:17,882 [DEBUG] basic_functions.py (line:16) Get singleton of database connector
+2024-10-17 01:10:18,071 [DEBUG] database_connector.py (line:25) Succeed to connect to MySQL database (attempt 1)
+2024-10-17 01:16:13,345 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-17 01:16:13,348 [DEBUG] basic_functions.py (line:22) Update visitor count
+2024-10-17 01:17:21,097 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-17 01:17:21,450 [DEBUG] basic_functions.py (line:22) Update visitor count
+2024-10-17 01:17:21,451 [DEBUG] basic_functions.py (line:16) Get singleton of database connector
+2024-10-17 01:17:21,622 [DEBUG] database_connector.py (line:25) Succeed to connect to MySQL database (attempt 1)
+2024-10-17 01:17:41,394 [DEBUG] basic_functions.py (line:28) Update clicker count
+2024-10-17 01:17:48,488 [DEBUG] basic_functions.py (line:34) Update contact information
+2024-10-17 01:24:33,755 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-17 01:24:40,829 [DEBUG] basic_functions.py (line:34) Update contact information
+2024-10-17 01:25:23,467 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-17 01:25:23,810 [DEBUG] basic_functions.py (line:22) Update visitor count
+2024-10-17 01:25:23,811 [DEBUG] basic_functions.py (line:16) Get singleton of database connector
+2024-10-17 01:25:23,999 [DEBUG] database_connector.py (line:25) Succeed to connect to MySQL database (attempt 1)
+2024-10-17 01:25:29,464 [DEBUG] basic_functions.py (line:34) Update contact information

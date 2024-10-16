@@ -1,11 +1,14 @@
+from sys import platform
+
 import streamlit as st
-from lib.basic_functions import update_clicker_count, update_contact_information
+from lib.basic_functions import get_database_connector, update_clicker_count, update_contact_information
 from common.path_handler import path_handler
 
 
 if __name__ == "__main__":
     st.set_page_config(page_title="联系方式 留学课程作业考试辅导答疑家教 个人老师", page_icon="☎️")
     st.title("联系方式")
+    parameters = [st.secrets["db_host"], st.secrets["db_username"], st.secrets["db_password"], st.secrets["db_database"]]
     st.sidebar.image(path_handler.profile_file_path)
     st.markdown("### 📧留下你的联系方式")
     st.markdown("#### 📱社交平台")
@@ -23,15 +26,18 @@ if __name__ == "__main__":
         else:
             st.session_state["social platform"] = select_box_social_platform
             st.session_state["contact information"] = text_input_contact_information
-            update_contact_information(f"{st.session_state['social platform']} - {st.session_state['contact information']}")
+            if st.session_state['social platform'] == "微信":
+                platform = "wechat"
+            elif st.session_state['social platform'] == "邮箱":
+                platform = "mailbox"
+            update_contact_information(parameters=parameters, platform=platform, contact_information=st.session_state['contact information'])
             st.success("保存成功", icon="✅")
-            # st.balloons()
     st.markdown("###")
     st.markdown("### 🧑‍💻获取我的联系方式")
     container_get_contact_information = st.empty()  # 使用容器实现按钮消失
     button_get_contact_information = container_get_contact_information.button("获取")
     if button_get_contact_information or "is contact information showed" in st.session_state:
-        update_clicker_count()
+        update_clicker_count(parameters)
         st.session_state["is contact information showed"] = True
         container_get_contact_information.empty()
         st.markdown("#### 📲微信ID")

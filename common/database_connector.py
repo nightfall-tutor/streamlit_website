@@ -1,6 +1,5 @@
 from common.logger import logger
 import mysql.connector
-import streamlit as st
 
 
 class DatabaseConnector:
@@ -56,7 +55,8 @@ class DatabaseConnector:
         self.connector.commit()
 
     def update_contact_information(self, platform, contact_information):
-        pass
+        self.cursor.execute(f"insert into streamlit_website_contacts (platform, contact_information) values ({platform}, {contact_information})")
+        self.connector.commit()
 
 
 
