@@ -29,7 +29,8 @@ def update_clicker_count():
 
 @st.cache_data
 def update_contact_information(new_contact_information: str):
-    data_handler.update_contact_information(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {new_contact_information}")
+    pass
+    # data_handler.update_contact_information(f"{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {new_contact_information}")
 
 
 
