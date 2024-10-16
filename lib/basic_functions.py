@@ -1,4 +1,4 @@
-from common.data_handler import data_handler
+from common.database_connector import DatabaseConnector
 import streamlit as st
 import datetime
 import uuid
@@ -12,14 +12,19 @@ def get_random_seed():  # 基于uuid全局标识符和当前时间戳生成随�
     return random_seed
 
 
+@st.cache_resource
+def get_database_connector(host, user, password, database):
+    return DatabaseConnector(host, user, password, database)
+
+
 @st.cache_data
 def update_visitor_count():
-    data_handler.update_visitor_count()
+    pass
 
 
 @st.cache_data
 def update_clicker_count():
-    data_handler.update_clicker_count()
+    pass
 
 
 @st.cache_data

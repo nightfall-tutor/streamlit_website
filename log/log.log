@@ -461,3 +461,88 @@
 2024-10-08 15:37:57,405 [DEBUG] logger.py (line:18) Initialize logger
 2024-10-08 15:37:57,405 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
 2024-10-08 15:37:57,405 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 15:56:17,383 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 15:56:17,384 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-16 15:56:17,384 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 16:30:54,309 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:30:54,309 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-16 16:30:54,310 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 16:32:21,924 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:32:21,924 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-16 16:32:21,925 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 16:33:00,082 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:33:00,082 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-16 16:33:00,082 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 16:41:00,428 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:41:00,428 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-16 16:41:00,429 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 16:41:13,057 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:41:13,057 [DEBUG] data_handler.py (line:8) Instantiate class DataHandler
+2024-10-16 16:41:13,058 [DEBUG] data_handler.py (line:14) Get data from local file
+2024-10-16 16:49:09,978 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:53:39,648 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:53:42,938 [ERROR] database_connector.py (line:23) Fail to connect to MySQL database due to No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\PA\.streamlit\secrets.toml, D:\Lenovo\Development\streamlit_website\common\.streamlit\secrets.toml (attempt 1)
+2024-10-16 16:53:42,939 [ERROR] database_connector.py (line:23) Fail to connect to MySQL database due to No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\PA\.streamlit\secrets.toml, D:\Lenovo\Development\streamlit_website\common\.streamlit\secrets.toml (attempt 2)
+2024-10-16 16:53:42,940 [ERROR] database_connector.py (line:23) Fail to connect to MySQL database due to No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\PA\.streamlit\secrets.toml, D:\Lenovo\Development\streamlit_website\common\.streamlit\secrets.toml (attempt 3)
+2024-10-16 16:56:51,059 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 16:56:55,578 [DEBUG] database_connector.py (line:20) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:00:32,679 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:05:00,775 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:06:34,205 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:17:45,432 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:18:21,534 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:18:49,064 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:18:55,098 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:18:57,383 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:20:30,814 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:22:04,024 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:22:07,541 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:24:29,189 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:24:32,161 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:28:24,620 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:28:26,708 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:28:58,306 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:29:02,074 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:29:46,563 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:29:50,307 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:31:37,865 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:31:43,432 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:31:45,583 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:32:32,098 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:32:32,696 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:32:36,239 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:34:58,843 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:35:03,243 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:35:07,516 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:35:17,178 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:35:20,490 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:35:28,669 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:35:33,823 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:44:23,185 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:45:13,233 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:45:35,672 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:45:40,120 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:45:43,403 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:47:06,217 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:48:05,078 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:48:07,816 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:48:24,938 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:48:28,044 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:48:30,713 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:48:46,556 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:48:48,058 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:48:51,235 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:49:08,820 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:49:11,940 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:49:14,662 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:53:23,932 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:53:24,614 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:53:28,096 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:55:22,760 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:56:04,395 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:56:14,730 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:56:17,508 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:57:01,153 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:57:04,900 [DEBUG] database_connector.py (line:26) Succeed to connect to MySQL database (attempt 1)
+2024-10-16 17:57:56,818 [DEBUG] logger.py (line:18) Initialize logger
+2024-10-16 17:58:02,904 [DEBUG] logger.py (line:18) Initialize logger
