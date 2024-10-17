@@ -5,7 +5,6 @@ import streamlit as st
 import uuid
 
 
-@st.cache_data
 def get_uuid():
     result = uuid.uuid4()
     logger.debug(f"Get uuid as {result}")
