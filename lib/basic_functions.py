@@ -23,15 +23,13 @@ def get_database_connector():
     )
 
 
-@st.cache_data
-def update_visitor_information():
+def update_visitor_information():  # 允许多次记录同一访问者
     logger.debug("Update visitor information")
     database_connector = get_database_connector()
     database_connector.update_visitor_information(get_uuid())
 
 
-@st.cache_data
-def update_clicker_information():
+def update_clicker_information():  # 允许多次记录同一点击者
     logger.debug("Update clicker information")
     database_connector = get_database_connector()
     database_connector.update_clicker_information(get_uuid())

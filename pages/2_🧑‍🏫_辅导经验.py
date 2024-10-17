@@ -1,12 +1,10 @@
 from common.path_handler import path_handler
-from lib.basic_functions import update_visitor_information
 import streamlit as st
 import os.path
 
 
 if __name__ == "__main__":
     st.set_page_config(page_title="辅导经验 留学课程作业考试辅导答疑家教 个人老师", page_icon="🧑‍🏫")
-    update_visitor_information()
     st.title("辅导经验")
     st.sidebar.image(path_handler.profile_file_path)
     column_1, column_2, column_3 = st.columns(3)

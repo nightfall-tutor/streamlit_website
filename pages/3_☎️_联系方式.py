@@ -1,11 +1,10 @@
-from lib.basic_functions import update_visitor_information, update_clicker_information, update_contact_information
+from lib.basic_functions import update_clicker_information, update_contact_information
 from common.path_handler import path_handler
 import streamlit as st
 
 
 if __name__ == "__main__":
     st.set_page_config(page_title="联系方式 留学课程作业考试辅导答疑家教 个人老师", page_icon="☎️")
-    update_visitor_information()
     st.title("联系方式")
     st.sidebar.image(path_handler.profile_file_path)
     st.markdown("### 📧留下你的联系方式")
