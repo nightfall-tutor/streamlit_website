@@ -1,7 +1,8 @@
 from symbol import parameters
 
-from lib.basic_functions import get_database_connector, update_visitor_count
+from lib.basic_functions import update_visitor_information
 from common.path_handler import path_handler
+from common.secret_handler import secret_handler
 import streamlit as st
 import pandas as pd
 
@@ -9,8 +10,11 @@ import pandas as pd
 if __name__ == "__main__":
     st.set_page_config(page_title="首页 留学课程作业考试辅导答疑家教 个人老师", page_icon="🏠")
     st.header(body="留学课程作业考试辅导答疑家教")
-    parameters = [st.secrets["db_host"], st.secrets["db_username"], st.secrets["db_password"], st.secrets["db_database"]]
-    update_visitor_count(parameters)
+    secret_handler.db_host = st.secrets["db_host"]
+    secret_handler.db_username = st.secrets["db_username"]
+    secret_handler.db_password = st.secrets["db_password"]
+    secret_handler.db_database = st.secrets["db_database"]
+    update_visitor_information()
 
     st.sidebar.image(path_handler.profile_file_path)
     st.markdown("### 课程📚/作业🖋️/考试💯/论文📃/课设⚗️/实验🔬")

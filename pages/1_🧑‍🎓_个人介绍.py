@@ -1,13 +1,14 @@
-import os.path
-
 from common.path_handler import path_handler
+from lib.basic_functions import update_visitor_information
 import streamlit as st
+import os.path
 
 
 if __name__ == "__main__":
     st.set_page_config(page_title="个人介绍 留学课程作业考试辅导答疑家教 个人老师", page_icon="🧑‍🎓")
-    st.sidebar.image(path_handler.profile_file_path)
+    update_visitor_information()
     st.title("个人介绍")
+    st.sidebar.image(path_handler.profile_file_path)
     st.markdown("###")
     st.markdown("### 👨‍🎓学历:&ensp;硕士")
     st.markdown("### 🏫学校:&ensp;上海交通大学（SJTU）")
