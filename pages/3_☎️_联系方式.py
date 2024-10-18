@@ -31,8 +31,8 @@ if __name__ == "__main__":
     button_get_contact_information = container_get_contact_information.button("获取")
     if button_get_contact_information or "is contact information showed" in st.session_state:
         if "is contact information showed" not in st.session_state:
+            st.session_state["is contact information showed"] = True
             update_clicker_information()
-        st.session_state["is contact information showed"] = True
         container_get_contact_information.empty()
         st.markdown("#### 📲微信ID")
         st.markdown("**IdeaBeneathMask**")

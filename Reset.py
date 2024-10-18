@@ -9,6 +9,7 @@ if __name__ == "__main__":
     secret_handler.db_password = st.secrets["db_password"]
     secret_handler.db_database = st.secrets["db_database"]
     database_connector = get_database_connector()
+    # database_connector.force_commit()
     database_connector.reset_table_streamlit_website_statistics()
     database_connector.reset_table_streamlit_website_visitors()
     database_connector.reset_table_streamlit_website_clickers()
