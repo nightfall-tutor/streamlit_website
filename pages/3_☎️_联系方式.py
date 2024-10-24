@@ -1,4 +1,4 @@
-from lib.basic_functions import update_clicker_information, update_contact_information
+from lib.basic_functions import update_clicker_information, update_contact_information, get_email_notifier
 from common.path_handler import path_handler
 import streamlit as st
 
@@ -24,6 +24,8 @@ if __name__ == "__main__":
             st.session_state["social platform"] = select_box_social_platform
             st.session_state["contact information"] = text_input_contact_information
             update_contact_information(platform=st.session_state['social platform'], contact_information=st.session_state['contact information'])
+            get_email_notifier().send_email(subject="New contact information has been submitted", message=f"Social platform: {select_box_social_platform}\n"
+                                                                                                          f"Contact information: {text_input_contact_information}")
             st.success("保存成功", icon="✅")
     st.markdown("###")
     st.markdown("### 🧑‍💻获取我的联系方式")

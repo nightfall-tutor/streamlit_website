@@ -1,4 +1,5 @@
 from common.database_connector import DatabaseConnector
+from common.email_notifier import EMailNotifier
 from common.secret_handler import secret_handler
 from common.logger import logger
 import streamlit as st
@@ -19,6 +20,16 @@ def get_database_connector():
         user=secret_handler.db_username,
         password=secret_handler.db_password,
         database=secret_handler.db_database
+    )
+
+
+@st.cache_resource
+def get_email_notifier():
+    logger.debug("Get singleton of email notifier")
+    return EMailNotifier(
+        email_sender=secret_handler.email_sender,
+        email_password=secret_handler.email_password,
+        email_receiver=secret_handler.email_receiver
     )
 
 

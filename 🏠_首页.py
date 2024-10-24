@@ -14,6 +14,9 @@ if __name__ == "__main__":
     secret_handler.db_username = st.secrets["db_username"]
     secret_handler.db_password = st.secrets["db_password"]
     secret_handler.db_database = st.secrets["db_database"]
+    secret_handler.email_sender = st.secrets["email_sender"]
+    secret_handler.email_password = st.secrets["email_password"]
+    secret_handler.email_receiver = st.secrets["email_receiver"]
     update_visitor_information()
 
     st.sidebar.image(path_handler.profile_file_path)
